@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: rgb(248, 244, 244);
+
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(30, 146, 192);
+}
+header>h1{
+    padding: 5px;
+    font-size: 2.5em;  
+    color: #F7B600;
+
+}
+h2{
+    color: orange;
+}
+h3{
+    background-color: #F7B600;
+    color: white;
+    padding: 5px;
+}
+section>p{
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom : 5px;
+    line-height: 2em;
+}
+.blog{
+    color: white;
+}
+nav{
+    padding: 20px;
+}
+nav>a{
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+}
+nav>a:visited{
+    color: white;
+}
+nav>a:hover{
+    padding: 10px;
+    background-color: white;
+    color: orange;
+}
+main{
+    width: 920px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.principal{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    float: left;
+    width: 600px;
+}
+.lateral{
+    margin-bottom: 30px;
+
+}
+.lateral>a{
+    font-weight: bold;
+    line-height: 2em;
+    color: #F7B600;
+    text-decoration: none;
+}
+.data{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid rgb(204, 198, 198);
+
+    
+
+    
+}
+.leiamais{
+    color: orange;
+}
+.lateral{
+    width: 240px;
+    background-color: white;
+    float: right;
+    
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(30, 146, 192);
+    font-weight: bold;
+}
+.tec{
+    color: orange;
+}
+
